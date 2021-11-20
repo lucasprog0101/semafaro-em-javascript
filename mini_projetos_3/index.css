@@ -1,0 +1,88 @@
+body{
+    background-color: #07B8F7;
+}
+
+section{
+    background-color: #fff;
+    width: 50pc;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 15px 5px #000000;
+    box-shadow: 2px 2px 15px 5px #000000;
+    animation-name: backInLeft;
+    animation-duration: 1s;
+}
+
+.ligar_e_desliga:not(#seta){
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 12px 5px #000000;
+    box-shadow: 2px 2px 12px 5px #000000;
+    margin-top: 30px;
+    margin-left: 212px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    position: absolute;
+    bottom: 155px;
+    left: 623px;
+}
+
+#seta{
+content: "";
+display: inline-block;
+vertical-align: middle;
+margin-right: 10px;
+width: 0;
+height: 0;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 25px solid #000;
+position: absolute;
+bottom: -34px;
+left: 84px;
+}
+
+#ligar{
+    width: 185px !important;
+    height: 27px !important;
+  margin-top: 14px !important;
+  margin-bottom: 20px !important;
+  margin-left: 7px !important;
+}
+
+#desligar {
+    width: 185px !important;
+    height: 27px !important;
+    margin-left: 7px !important;
+    margin-top: 0px !important;
+}
+
+#img_semafaro{
+    margin-left: 20pc;
+    margin-top: 10px;
+}
+
+#botoes button {
+    width: 120px;
+    height: 30px;
+    margin-left: 63px;
+    margin-top: 49px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #8700FF;
+    text-shadow: 3px 2px 3px #000; 
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+button#desligar_semafaro {
+    position: relative;
+    top: -37px;
+    left: 252px;
+    width: 200px;
+}
